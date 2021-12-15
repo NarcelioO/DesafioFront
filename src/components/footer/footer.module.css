@@ -12,6 +12,7 @@
     display: flex;
     justify-content: space-around;
     padding: 0 2rem ;
+   
   
 }
 
@@ -24,8 +25,10 @@
     width: 100%;
     background-color: #EAEAEA;
     position: absolute;
-    margin-top: 22rem;
-    line-height: 0;
+    margin-top: 25rem;
+  
+   clip-path: polygon(0 34%, 100% 2%, 100% 100%, 0% 100%);
+  
 }
 
 .contato{
@@ -33,9 +36,10 @@
     align-items: center;
     display: flex;
     flex-direction: column;
-    margin-top: 3rem;
+    margin-top: 2rem;
     height: 300px;
     width: 100%;
+   padding: 12px;
 }
 .contato form{
     width: 100%;
@@ -45,6 +49,7 @@
    justify-content: center;
    align-items: center;
    gap: 16px;
+  
     
     
     
@@ -56,6 +61,7 @@
     padding: 1rem;
     height: 60px;
     width: 338px;
+    padding: 12px;
     
     
 }
@@ -71,6 +77,7 @@
     font-size: 22px;
     cursor: pointer;
 }
+
 @media screen and (max-width: 912px)
 {
 
@@ -83,16 +90,17 @@
        justify-content: center;
        align-items: center;
        gap: 16px;
-        
+       
         
         
     }
+    
     .contato{
         justify-content: center;
         align-items: center;
         display: flex;
         flex-direction: column;
-        margin-top: 8rem;
+        margin-top: 6rem;
         height: 300px;
         width: 100%;
     }
@@ -107,23 +115,46 @@
         display: flex;
         flex-direction: column;
     }
-
+    
+    
+    .contato{
+        margin-top: 8rem;
+    }
     .img{
         width: 300px;
         height: 300px;
     }
-    .form{
-        
-    height: 120px;
-    width: 100%;
-    background-color: #EAEAEA;
-    display: none;
-    line-height: 0;
-       
-    }
+   
     .divtext{
         width: 100%;
         
     }
+    .form{
+        display: none;
+    }
+    
+}
+@media screen and (max-width: 460px)
+{
+
+    .contato {
+        margin-top: 5rem;
+      
+    }
+    
+
+   
+    
+}
+@media screen and (max-width: 455px)
+{
+
+    .contato {
+        margin-top: 8rem;
+      
+    }
+    
+
+   
     
 }

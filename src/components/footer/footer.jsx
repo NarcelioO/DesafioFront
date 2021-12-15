@@ -16,8 +16,8 @@ export function Foter(){
                 <Image 
                 src={imgMan}
                 alt="Picture of the author"
-                width={400}
-                height={400}
+                width={408}
+                height={466}
                 />
                 </div>
                 <div className={style.form}></div>
